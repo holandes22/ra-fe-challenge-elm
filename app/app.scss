@@ -1,0 +1,39 @@
+@import "../node_modules/bulma/sass/utilities/initial-variables";
+
+// Customize bulma.css variables
+$warning: $orange;
+
+@import "../node_modules/bulma/bulma";
+
+$dark-blue: #1d2837;
+$dark-grey: #2e3642;
+$light-grey: #e2e2e2;
+
+.dragabble {
+  cursor: move;
+  position: absolute;
+
+  .name {
+    min-width: 100px;
+    height: 100px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $dark-grey
+  }
+}
+
+
+.container {
+  padding-top: 3em;
+}
+
+
+.login-form {
+  background-color: $dark-blue;
+
+  input {
+    background-color: $light-grey;
+  }
+}
